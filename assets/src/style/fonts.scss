@@ -1,0 +1,42 @@
+@font-face {
+  font-family: 'ProximaNova-Regular';
+  src: url('../fonts/ProximaNova-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'ProximaNova-Semibold';
+  src: url('../fonts/ProximaNova-Semibold.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+.text-regular {
+  font-family: 'ProximaNova-Regular', sans-serif;
+}
+.text-semibold {
+  font-family: 'ProximaNova-Semibold', sans-serif;
+}
+.color-gray {
+  color: #666666;
+}
+.color-blue {
+  color: #40A8E4;
+}
+.color-white {
+  color: white!important;
+}
+.opacity {
+  opacity: .5;
+}
+.font-size-14 {
+  font-size: 14px;
+}
+.font-size-12 {
+  font-size: 12px;
+}
+.font-size-26 {
+  font-size: 26px;
+}
+.text-uppercase {
+  text-transform: uppercase;
+}

@@ -1,0 +1,149 @@
+.header-info {
+  padding: 15px 0;
+  border-bottom: 1px solid #EEEEEE;
+}
+.container {
+  max-width: 1328px;
+}
+.flex-box.flex-center {
+  align-items: center;
+}
+.flex-box.space-between {
+  justify-content: space-between;
+}
+.flex-box {
+  display: flex;
+}
+p
+{
+  margin-bottom: 0;
+}
+.header-menu {
+  background: #FCFCFC;
+  border-bottom: 1px solid #EEEEEE;
+
+}
+.header-info-search {
+  width: 480px;
+  height: 42px;
+  margin-right: 20px;
+  position: relative;
+  &::before {
+    content: '';
+    display: table;
+    background-image: url("/../img/search-icon.svg");
+    background-repeat: no-repeat;
+    background-position-x: left;
+    background-position-y: center;
+    height: 100%;
+    width: 25px;
+    top: 0;
+    left: 10px;
+    position: absolute;
+    cursor: pointer;
+    opacity: .8;
+    z-index: 1;
+  }
+}
+.header-info-search input[type="text"] {
+  border: 1px solid #EEEEEE;
+  border-radius: 3px;
+  width: 100%;
+  height: 100%;
+  padding: 10px 42px;
+  font-family: ProximaNova-Regular,sans-serif;
+  font-size: 14px;
+  color: #666666;
+  text-decoration: underline;
+}
+.header-info-contacts {
+  text-align: right;
+  a {
+    line-height: 24px;
+  }
+}
+.header-button {
+  padding: 16px 26px;
+  border: 1px solid #40A8E4;
+  transition: .4s;
+  &:hover {
+    background: #40A8E4;
+    color: white;
+  }
+}
+.header-nav {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  align-items: stretch;
+  justify-content: space-between;
+}
+.header-nav-item {
+  border-right: 1px solid #EEEEEE;
+  &:last-child {
+    border-right: none;
+  }
+  a {
+    transition: .4s;
+  }
+  &:hover
+  {
+    .header-nav-item-main {
+      color: #40A8E4;
+    }
+    &::before
+    {
+      background-image: url("/../img/arrow-down-hover.svg");
+    }
+  }
+}
+.header-nav-item-main {
+  padding: 15px 61px;
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.parent-a {
+  position: relative;
+  padding: 0;
+  &::before {
+    background-image: url("/../img/arrow-down.svg");
+    position: absolute;
+    content: '';
+    width: 8px;
+    height: 5px;
+    background-repeat: no-repeat;
+    background-position-y: center;
+    right: 44px;
+    top: calc(50% - 2px);
+    transition: .3s;
+  }
+  &:hover {
+    .menu-child {
+      display: block;
+      opacity: 1;
+      visibility: visible;
+    }
+  }
+}
+.menu-child {
+  opacity: 0;
+  transition: .4s;
+  visibility: hidden;
+  position: absolute;
+  left: -1px;
+  right: -1px;
+  height: auto;
+  background: #EEEEEE;
+  padding: 10px 70px;
+  top: 100%;
+  text-align: center;
+  z-index: 1;
+  li {
+    padding: 5px 0;
+  }
+  a:hover {
+    color: rgba(51, 51, 51, 0.99);
+  }
+}
