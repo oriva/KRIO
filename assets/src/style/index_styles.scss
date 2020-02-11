@@ -37,6 +37,8 @@
 }
 .services-block {
   display: flex;
+  position: relative;
+  margin-top: -78px;
 }
 .services-block-item {
   flex: 25%;
@@ -65,4 +67,25 @@
   padding: 24px 0 28px;
   min-height: 91px;
   line-height: 100%;
+}
+.blocks-head {
+  border-bottom: 2px solid #379CD6;
+  width: 100%;
+  flex: 100%;
+  padding: 14px 0;
+  margin-bottom: 40px;
+}
+.advantages-block {
+  margin-top: 98px;
+  display: flex;
+  flex-wrap: wrap;
+  padding-bottom: 90px;
+}
+.advantages-block-item {
+  display: flex;
+  flex: 50%;
+  max-width: 50%;
+  margin-top: 38px;
+  align-items: center;
+  padding-right: 114px;
 }
