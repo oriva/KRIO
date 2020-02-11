@@ -10,33 +10,63 @@
   font-weight: normal;
   font-style: normal;
 }
+@font-face {
+  font-family: 'ProximaNova-Light';
+  src: url('../fonts/ProximaNova-Light.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
 .text-regular {
   font-family: 'ProximaNova-Regular', sans-serif;
 }
 .text-semibold {
   font-family: 'ProximaNova-Semibold', sans-serif;
 }
+.text-light-t {
+  font-family: 'ProximaNova-Light', sans-serif;
+}
 .color-gray {
   color: #666666;
+}
+.color-dark-gray {
+  color: rgba(51, 51, 51, 0.99);
 }
 .color-blue {
   color: #40A8E4;
 }
 .color-white {
-  color: white!important;
-}
-.opacity {
-  opacity: .5;
-}
-.font-size-14 {
-  font-size: 14px;
+  color: white;
 }
 .font-size-12 {
   font-size: 12px;
 }
+.font-size-14 {
+  font-size: 14px;
+}
+.font-size-16 {
+  font-size: 16px;
+}
+.font-size-20 {
+  font-size: 20px;
+}
 .font-size-26 {
-  font-size: 26px;
+   font-size: 26px;
+ }
+.font-size-48 {
+  font-size: 48px;
+}
+.font-size-60 {
+  font-size: 60px;
 }
 .text-uppercase {
   text-transform: uppercase;
+}
+.opacity {
+  opacity: .5;
+}
+.line-height-100 {
+  line-height: 100%;
+}
+.line-height-125 {
+  line-height: 125%;
 }

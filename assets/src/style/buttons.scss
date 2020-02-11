@@ -1,0 +1,56 @@
+.header-button {
+  padding: 16px 26px;
+  border: 1px solid #40A8E4;
+  transition: .4s;
+  &:hover {
+    background: #40A8E4;
+    color: white;
+  }
+}
+.footer-button {
+  padding: 16px 26px;
+  border: 1px solid white;
+  color: white;
+  transition: .4s;
+  display: block;
+  text-align: center;
+  &:last-child {
+    margin-top: 32px;
+  }
+  &:hover {
+    background: white;
+    color: rgba(51, 51, 51, 0.99);
+  }
+}
+.main-page-banner-buttons {
+  display: flex;
+  a {
+    display: table;
+  }
+}
+.main-blue-button {
+  padding: 16px 42px;
+  border: 1px solid #40A8E4;
+  background: #40A8E4;
+  margin-right: 40px;
+  transition: .4s;
+  &:hover {
+    background: #2388C2;
+    border: 1px solid #2388C2;
+  }
+}
+.main-white-button {
+  padding: 16px 42px;
+  border: 1px solid #40A8E4;
+  background: white;
+  &:hover {
+    background: #40A8E4;
+    color: white;
+  }
+}
+.services-button {
+  padding: 16px 47px;
+  border: 1px solid white;
+  color: white;
+  display: inline-block;
+}
