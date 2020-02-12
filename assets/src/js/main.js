@@ -17,6 +17,8 @@
 //= ../../../node_modules/bootstrap/js/dist/scrollspy.js
 //= ../../../node_modules/bootstrap/js/dist/tab.js
 //= ../../../node_modules/bootstrap/js/dist/toast.js
+//= ../../../node_modules/slick-carousel/slick/slick.min.js
+
 
 // Импортируем другие js-файлы
 //= my.js
