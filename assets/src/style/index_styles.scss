@@ -39,6 +39,7 @@
   display: flex;
   position: relative;
   margin-top: -78px;
+  z-index: 3;
 }
 .services-block-item {
   flex: 25%;
@@ -47,8 +48,11 @@
   align-items: center;
   padding: 37px 54px 48px;
   text-align: center;
-  a {
-    margin-top: 33px;
+  &:hover {
+    .services-button {
+        background: white;
+        color: rgba(51, 51, 51, 0.99);
+    }
   }
 }
 .color-first {
@@ -89,6 +93,37 @@
   align-items: center;
   padding-right: 114px;
 }
+.institutes-head {
+  transition: .4s;
+}
+.institutes-block-item {
+  display: flex;
+  flex: 50%;
+  max-width: 50%;
+  margin-top: 38px;
+  align-items: center;
+  padding-right: 114px;
+  .advantages-block-item-icon {
+    border-radius: 50px;
+    transition: .4s;
+    border: 1px solid #666666;
+  }
+  img {
+    transition: .4s;
+  }
+  &:hover{
+    .advantages-block-item-icon {
+      background: #40A8E4;
+      border: 1px solid transparent;
+      img {
+        filter: invert(1) opacity(1) contrast(300%)
+      }
+    }
+    .institutes-head {
+      color: #40A8E4;
+    }
+  }
+}
 .success-head {
   width: 100%;
   padding: 29px 0 25px;
@@ -108,6 +143,7 @@
 }
 .slick-slider {
   display: flex!important;
+  max-height: 436px;
 }
 .success-item-text {
   flex: 50%;
@@ -133,6 +169,11 @@
   background-repeat: no-repeat;
   background-position-x: center;
   background-position-y: center;
+  transition: .3s;
+  &:hover {
+    background-color: #2388C2;
+    border: 1px solid #2388C2;
+  }
 }
 .success-slider .slick-next.slick-arrow {
   position: absolute;
@@ -149,6 +190,11 @@
   background-repeat: no-repeat;
   background-position-x: center;
   background-position-y: center;
+  transition: .3s;
+  &:hover {
+    background-color: #2388C2;
+    border: 1px solid #2388C2;
+  }
 }
 .slider-button-more {
   display: inline-block;
@@ -233,7 +279,7 @@ margin-right: 38px;
     }
   }
 }
-.news-item-photo
+.news-item-photoF
 {
   img {
     width: 100%;

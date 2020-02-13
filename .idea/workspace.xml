@@ -46,7 +46,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../deputatNew" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="ServiceViewManager">
@@ -78,7 +78,8 @@
       <workItem from="1581308583953" duration="15488000" />
       <workItem from="1581327566287" duration="859000" />
       <workItem from="1581399826560" duration="14530000" />
-      <workItem from="1581484166499" duration="15484000" />
+      <workItem from="1581484166499" duration="15574000" />
+      <workItem from="1581570700156" duration="16088000" />
     </task>
     <servers />
   </component>
@@ -86,13 +87,25 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="1060" y="454" key="FileChooserDialogImpl" timestamp="1581308496783">
+    <state x="1047" y="502" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1581586420310">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="1060" y="454" key="FileChooserDialogImpl/0.0.2560.1400@0.0.2560.1400" timestamp="1581308496783" />
-    <state x="975" y="522" key="com.intellij.ide.util.TipDialog" timestamp="1581484168213">
+    <state x="1047" y="502" key="#com.intellij.fileTypes.FileTypeChooser/0.0.2560.1400@0.0.2560.1400" timestamp="1581586420310" />
+    <state x="1010" y="446" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1581586439777">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="975" y="522" key="com.intellij.ide.util.TipDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1581484168213" />
+    <state x="1010" y="446" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1581586439777" />
+    <state x="1060" y="454" key="FileChooserDialogImpl" timestamp="1581580093615">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1060" y="454" key="FileChooserDialogImpl/0.0.2560.1400@0.0.2560.1400" timestamp="1581580093615" />
+    <state x="975" y="522" key="com.intellij.ide.util.TipDialog" timestamp="1581570734920">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="975" y="522" key="com.intellij.ide.util.TipDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1581570734920" />
+    <state x="977" y="305" width="606" height="789" key="find.popup" timestamp="1581584992524">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="977" y="305" width="606" height="789" key="find.popup/0.0.2560.1400@0.0.2560.1400" timestamp="1581584992524" />
   </component>
 </project>

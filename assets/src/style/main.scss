@@ -6,7 +6,6 @@
 @import "../../../node_modules/bootstrap/scss/_variables";
 @import "../../../node_modules/bootstrap/scss/_mixins";
 @import "../../../node_modules/bootstrap/scss/_root";
-@import "../../../node_modules/bootstrap/scss/_reboot";
 @import "../../../node_modules/bootstrap/scss/_type";
 @import "../../../node_modules/bootstrap/scss/_images";
 @import "../../../node_modules/bootstrap/scss/_code";
@@ -42,6 +41,7 @@
 @import "../../../node_modules/slick-carousel/slick/slick.css";
 
 // Подключение своих SCSS файлов
+@import "reboot";
 @import "my";
 @import "fonts";
 @import "header_styles";
@@ -49,3 +49,4 @@
 @import "index_styles";
 @import "indents";
 @import "buttons";
+@import "investment-projects_styles";
