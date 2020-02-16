@@ -97,3 +97,56 @@
 .page {
   margin: 0 13px;
 }
+.about-project {
+  display: flex;
+  padding: 84px 0 81px;
+}
+.about-project-team {
+  flex: 50%;
+  max-width: 50%;
+  padding-right: 165px;
+}
+.about-project-achievements {
+  flex: 50%;
+  max-width: 50%;
+  padding-left: 83px;
+}
+.item-blocks {
+  display: flex;
+}
+.item-blocks-photo {
+  flex: 50%;
+  max-width: 50%;
+  img {
+    width: 100%;
+    height: 100%;
+  }
+}
+.item-blocks-text {
+  flex: 50%;
+  max-width: 50%;
+  background: #2388C2;
+  padding: 119px 160px 119px 83px;
+}
+.item-blocks-text-left {
+  flex: 50%;
+  max-width: 50%;
+  background: white;
+  padding: 119px 100px 119px 184px;
+}
+.item-blocks-text-block {
+  max-width: 725px;
+}
+.item-blocks-text-block-left {
+  max-width: 680px;
+}
+.man-first-text {
+  flex: 50%;
+  max-width: 50%;
+  padding-right: 88px;
+}
+.man-second-text {
+  flex: 50%;
+  max-width: 50%;
+  padding-left: 88px;
+}
