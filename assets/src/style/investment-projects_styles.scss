@@ -1,6 +1,8 @@
 .invest-projects-banner {
   display: flex;
   border-bottom: 6px solid #379CD6;
+  position: relative;
+  z-index: 1;
 }
 .invest-projects-banner-text {
   padding-top: 112px;
@@ -43,6 +45,8 @@
 .invest-count {
   margin-top: -70px;
   padding-bottom: 50px;
+  position: relative;
+  z-index: 3;
 }
 .invest-projects-items {
   display: flex;
