@@ -53,8 +53,8 @@ $(document).ready(function () {
             }
         });
     });
-    $('#up').click(function() {
-        $('html, body').animate({scrollTop: 0},2000);
+    $('#up').click(function () {
+        $('html, body').animate({scrollTop: 0}, 2000);
         return false;
     })
 });
@@ -80,5 +80,13 @@ $(window).scroll(function () {
             });
             show = false;
         });
+    }
+});
+$('.service-dropdown').click(function () {
+    $(this).next('.dropdown-hidden').slideToggle();
+    if ($(this).find('.arrow-dropdown').hasClass('arrow-open')) {
+        $(this).find('.arrow-dropdown').removeClass('arrow-open')
+    } else {
+        $(this).find('.arrow-dropdown').addClass('arrow-open')
     }
 });

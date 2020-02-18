@@ -73,3 +73,15 @@
     border: 1px solid #2388C2;
   }
 }
+.institute-button {
+  display: inline-block;
+  margin-top: 24px;
+  padding: 17px 24px;
+  border: 1px solid #40A8E4;
+  background-color: #40A8E4;
+  transition: .4s;
+  &:hover {
+    background: #2388C2;
+    border: 1px solid #2388C2;
+  }
+}

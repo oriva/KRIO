@@ -1,0 +1,46 @@
+.services-content-info-textblock-more {
+  background: #F8F8F8;
+  border-left: 6px solid #379CD6;
+  padding: 18px;
+  ul {
+    padding-left: 0;
+  }
+  li {
+    &::before {
+      content: '';
+      position: absolute;
+      width: 12px;
+      height: 1px;
+      left: -22px;
+      top: 9px;
+      background-color: transparent;
+    }
+  }
+}
+.institutes-service-button {
+  width: 100%;
+  padding: 18px 30px 18px 18px;
+  display: flex;
+  background-color: #F8F8F8;
+  border-left: 6px solid #379CD6;
+  margin-bottom: 12px;
+  transition: .4s;
+  img {
+    margin-left: auto;
+  }
+  p {
+    padding-bottom: 0;
+  }
+  &:hover {
+    background-color: #379CD6;
+    p {
+      color: white;
+    }
+    img {
+      filter: brightness(0.01) invert(1);
+    }
+  }
+}
+.last-false {
+  border-bottom: 1px solid transparent;
+}
