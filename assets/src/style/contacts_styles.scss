@@ -1,0 +1,67 @@
+.contacts-banner-map {
+  border-bottom: 6px solid #379CD6;
+  position: relative;
+  z-index: 1;
+}
+.contacts {
+  margin-top: -76px;
+  position: relative;
+  z-index: 3;
+  &-head {
+    text-align: center;
+    width: 100%;
+    padding: 45px 0;
+    background-color: #2388C2;
+  }
+  &-block {
+    display: flex;
+    padding: 84px 100px 100px;
+    &-feedback {
+      flex: 50%;
+      max-width: 50%;
+      input[type=text] {
+        border: 1px solid #eee;
+        border-radius: 3px;
+        width: 100%;
+        padding: 11px;
+        font-family: ProximaNova-Regular,sans-serif;
+        font-size: 14px;
+        color: #666;
+        text-decoration: underline;
+      }
+      textarea[type=text] {
+        border: 1px solid #eee;
+        border-radius: 3px;
+        width: 100%;
+        padding: 11px;
+        font-family: ProximaNova-Regular,sans-serif;
+        font-size: 14px;
+        color: #666;
+        text-decoration: underline;
+        min-height: 156px;
+      }
+    }
+    &-info {
+      flex: 50%;
+      max-width: 50%;
+      padding-left: 180px;
+      &-textblock {
+        padding-top: 12px;
+        padding-bottom: 19px;
+      }
+    }
+  }
+}
+.input-box {
+  display: flex;
+  margin-top: 12px;
+  &-item {
+    width: 100%;
+    &-first {
+      margin-right: 8px;
+    }
+    &-second {
+      margin-left: 8px;
+    }
+  }
+}

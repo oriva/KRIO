@@ -44,3 +44,23 @@
 .last-false {
   border-bottom: 1px solid transparent;
 }
+.li-nowrap {
+  white-space: nowrap;
+}
+.nowrap-ul {
+  column-count: 1;
+  li {
+    width: 100%;
+  }
+}
+.no-markers {
+  li {
+    &::before {
+      background-color: transparent;
+    }
+  }
+  .parent-li {
+    margin-bottom: 20px;
+    padding-right: 196px;
+  }
+}

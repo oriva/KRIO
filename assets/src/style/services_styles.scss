@@ -105,6 +105,7 @@
     justify-content: center;
     align-items: center;
     max-height: 127px;
+    position: relative;
   }
   &-block {
     padding: 0 40px;
@@ -192,4 +193,9 @@
   &:hover {
     cursor: pointer;
   }
+}
+.bread-crumb-absolute {
+  position: absolute;
+  top: 45%;
+  left: 48px;
 }
