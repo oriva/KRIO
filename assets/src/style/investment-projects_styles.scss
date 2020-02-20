@@ -154,3 +154,29 @@
   max-width: 50%;
   padding-left: 88px;
 }
+.production-rate-content {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 80px 0;
+  &-photo {
+    flex: 50%;
+    max-width: 50%;
+  }
+  &-text {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+.production-first-text {
+  padding-left: 100px;
+}
+.production-first-photo {
+  padding-right: 115px;
+}
+.production-second-text {
+  padding-top: 98px;
+  padding-right: 100px;
+}
+.production-second-photo {
+  padding-top: 80px;
+}

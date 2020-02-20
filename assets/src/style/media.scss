@@ -1,0 +1,280 @@
+@media (max-width: 1745px) {
+  .map-bg1 {
+    right: -130px;
+  }
+  .map-bg2 {
+    right: 50px;
+  }
+}
+@media (max-width: 1600px) {
+  .asking-question-block {
+    margin-left: 150px;
+  }
+}
+@media (max-width: 1450px) {
+  .map-bg1 {
+    right: -230px;
+  }
+  .map-bg2 {
+    right: -50px;
+  }
+  .getting-support {
+    padding: 70px 50px 70px 0;
+  }
+  .asking-question {
+    padding: 70px 50px 70px 0;
+  }
+  .success-item-text-block {
+    max-width: 500px;
+  }
+  .asking-question-block {
+    max-width: 500px;
+    margin-left: 125px;
+  }
+}
+@media (min-width: 1401px) {
+  .container {
+    max-width: 1328px;
+  }
+}
+@media (max-width: 1400px) {
+  .header-nav-item-main {
+    padding: 15px 45px;
+  }
+  .parent-a::before {
+    right: 23px;
+  }
+  .business-news-block-photo {
+    flex: 30%;
+    max-width: 30%;
+  }
+  .business-news-block-text {
+    margin-left: 0;
+    z-index: 10;
+  }
+}
+@media (max-width: 1220px) {
+  .success-item-text {
+    padding-right: 30px;
+  }
+  .success-slider .slick-prev.slick-arrow {
+    bottom: 32px;
+    margin-left: 360px;
+  }
+  .success-slider .slick-next.slick-arrow {
+    bottom: 32px;
+    margin-left: 425px;
+  }
+}
+@media (max-width: 1200px) {
+  .map-bg1 {
+    right: -330px;
+  }
+  .map-bg2 {
+    right: -170px;
+  }
+  .main-page-banner-content-counts {
+    padding-left: 50px;
+  }
+  .main-page-banner-content-info {
+    padding-right: 0;
+  }
+  .header-nav-item-main {
+    padding: 15px 27px;
+  }
+  .parent-a::before {
+    right: 16px;
+  }
+  .header-info-search {
+    width: 350px;
+  }
+  .services-block {
+    flex-wrap: wrap;
+  }
+  .services-block-item {
+    flex: 50%;
+    max-width: 50%;
+  }
+  .advantages-block-item {
+    flex: 100%;
+    max-width: 100%;
+  }
+  .institutes-block-item {
+    flex: 100%;
+    max-width: 100%;
+  }
+  .getting-support {
+    padding: 70px 50px 70px 0;
+  }
+  .asking-question {
+    padding: 70px 50px 70px 0;
+  }
+  .success-item-text-block {
+    max-width: 450px;
+  }
+  .asking-question-block {
+    max-width: 450px;
+    margin-left: 70px;
+  }
+  .business-news-block-text {
+    margin-left: 38px;
+  }
+  .container-new {
+    max-width: 936px;
+  }
+  .footer-info {
+    padding-left: 0;
+  }
+  .cop-rowstudio {
+    margin-left: auto;
+    margin-top: 20px;
+  }
+}
+@media (max-width: 1100px) {
+  .map-bg2 {
+    width: 50%;
+    top: 85px;
+  }
+  .map-bg1 {
+    right: -470px;
+  }
+  .success-item-text {
+    padding: 30px;
+  }
+  .getting-support-text-block {
+    margin-left: 70px;
+  }
+}
+@media (min-width: 992px) {
+  .burger {
+    display: none;
+  }
+}
+@media (max-width: 991px) {
+  .header-nav {
+    width: 100%;
+    max-width: 300px;
+    position: absolute;
+    right: -100%;
+    top: 100%;
+    z-index: 25;
+    display: block;
+    background: white;
+    padding-bottom: 20px;
+    border-bottom: 4px solid #40A8E4;
+    box-shadow: 0 5px 18px rgba(0, 0, 0, 0.1);
+    transition: .7s;
+  }
+  .header-nav-item-main {
+    padding-left: 15px!important;
+  }
+  .header-menu {
+    border-bottom: none;
+  }
+  .header-info-search {
+    width: 270px;
+    margin: 15px auto;
+  }
+  .open-menu {
+    right: 0;
+  }
+  .menu-child {
+    position: relative;
+    opacity: 1;
+    visibility: visible;
+    text-align: left;
+    display: none;
+    background: transparent;
+    li {
+      a {
+        font-size: 14px;
+      }
+    }
+  }
+  .map-bg2 {
+    display: none;
+  }
+  .main-page-banner-content-counts {
+    text-align: end;
+    padding-right: 50px;
+    .flex-box {
+      justify-content: flex-end;
+      flex-wrap: wrap;
+    }
+  }
+  .counts-item {
+    max-width: none;
+  }
+  .main-page-banner-buttons {
+    flex-wrap: wrap;
+    .main-white-button {
+      margin-top: 15px;
+      padding: 16px 45px;
+    }
+  }
+  .main-page-banner {
+    background-image: none;
+    overflow: hidden;
+  }
+  .main-page-banner-content-info {
+    padding: 80px 0 100px;
+  }
+  .services-block {
+    margin-top: 40px;
+  }
+  .story-count-block {
+    flex: 50%;
+    max-width: 50%;
+  }
+  .story-count {
+    flex-wrap: wrap;
+  }
+  .success-item-photo {
+    display: none;
+  }
+  .success-item-text {
+    flex: 100%;
+    max-width: 100%;
+  }
+  .success-slider .slick-prev.slick-arrow {
+    margin-left: 0;
+  }
+  .success-slider .slick-next.slick-arrow {
+    margin-left: 60px;
+  }
+  .slick-slide img {
+    width: 100%;
+  }
+  .news-item {
+    margin-right: 5px;
+  }
+  .getting-support, .asking-question {
+    padding: 40px;
+  }
+  .getting-support-text-block, .asking-question-block {
+    margin-left: 0;
+  }
+  .footer-nav {
+    display: none;
+  }
+  .footer-lightblue {
+    padding: 40px;
+  }
+  .footer-info {
+    padding: 0;
+  }
+  .container-new {
+    max-width: 720px;
+  }
+  .footer-info-buttons, .footer-info-contacts {
+    margin-left: 20px;
+  }
+  .footer-up {
+    position: absolute;
+    right: 40px;
+    top: 35px;
+  }
+  .privacy {
+    margin-top: 20px;
+  }
+}

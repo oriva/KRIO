@@ -5,18 +5,8 @@ $(".success-slider").slick({
     responsive: [{
         breakpoint: 1024,
         settings: {
-            slidesToShow: 3,
-            infinite: true
+
         }
-    }, {
-        breakpoint: 600,
-        settings: {
-            slidesToShow: 2,
-            dots: true
-        }
-    }, {
-        breakpoint: 300,
-        settings: "unslick"
     }]
 });
 $(".news-slider").slick({
@@ -24,21 +14,10 @@ $(".news-slider").slick({
     autoplay: true,
     slidesToShow: 2,
     responsive: [{
-        breakpoint: 1024,
+        breakpoint: 1400,
         settings: {
-            slidesToShow: 3,
+            slidesToShow: 1,
         }
-    }, {
-        breakpoint: 600,
-        settings: {
-            slidesToShow: 2,
-            dots: true
-        }
-
-    }, {
-        breakpoint: 300,
-        settings: "unslick" // destroys slick
-
     }]
 });
 $(document).ready(function () {
@@ -56,7 +35,10 @@ $(document).ready(function () {
     $('#up').click(function () {
         $('html, body').animate({scrollTop: 0}, 2000);
         return false;
-    })
+    });
+    if ($(window).width() <= 991) {
+        $('#myDiv1>form').prependTo('#myDiv2');
+    }
 });
 var show = true;
 $(window).scroll(function () {
@@ -89,4 +71,22 @@ $('.service-dropdown').click(function () {
     } else {
         $(this).find('.arrow-dropdown').addClass('arrow-open')
     }
+});
+$('#burger').click(function () {
+
+    if ($(".header-nav").hasClass('open-menu')) {
+        $('.header-nav').removeClass('open-menu')
+        $('.burger-line1').removeClass('burger-transform-1');
+        $('.burger-line2').removeClass('burger-transform-2');
+        $('.burger-line3').removeClass('burger-transform-3');
+    }
+    else {
+        $('.header-nav').addClass('open-menu');
+        $('.burger-line1').addClass('burger-transform-1');
+        $('.burger-line2').addClass('burger-transform-2');
+        $('.burger-line3').addClass('burger-transform-3');
+    }
+});
+$('.header-nav-item').click(function () {
+    $(this).next('.menu-child').slideToggle();
 });

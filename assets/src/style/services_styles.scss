@@ -20,17 +20,18 @@
   }
 }
 .service-item-icon {
-  width: 240px;
-  height: 240px;
-  padding: 47px 10px 0;
+  width: 200px;
+  padding: 30px 10px;
   text-align: center;
   p {
-    margin-top: 37px;
+    margin-top: 25px;
+  }
+  img {
+    width: 60px;
   }
 }
 .service-item-arrow {
-  width: 240px;
-  height: 240px;
+  width: 200px;
   background-image: url("/../img/serv-arrow.svg");
   background-repeat: no-repeat;
   background-position-y: center;
@@ -39,7 +40,7 @@
   transition: .3s;
 }
 .service-item-text {
-  width: calc(100% - 480px);
+  width: calc(100% - 400px);
   display: flex;
   justify-content: center;
   align-items: center;

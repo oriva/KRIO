@@ -5,8 +5,15 @@ a {
 body {
   line-height: 100%;
 }
+html, body {
+  width: 100%;
+  overflow-x: hidden;
+}
 ul {
   list-style: none;
+  margin-bottom: 0;
+}
+h2, h3 {
   margin-bottom: 0;
 }
 .container-new {
@@ -25,9 +32,7 @@ ul {
   padding-left: 0;
   padding-right: 0;
 }
-h2, h3 {
-  margin-bottom: 0;
-}
+
 .bread-crumb {
   display: flex;
 }
