@@ -83,10 +83,6 @@ p
     .header-nav-item-main {
       color: #40A8E4;
     }
-    &::before
-    {
-      background-image: url("/../img/arrow-down-hover.svg");
-    }
   }
 }
 .header-nav-item-main {
@@ -109,13 +105,6 @@ p
     right: 44px;
     top: calc(50% - 2px);
     transition: .3s;
-  }
-  &:hover {
-    .menu-child {
-      display: block;
-      opacity: 1;
-      visibility: visible;
-    }
   }
 }
 .menu-child {
