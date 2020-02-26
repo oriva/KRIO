@@ -45,7 +45,7 @@ $(document).ready(function () {
         });
     });
     $('#up').click(function () {
-        $('html, body').animate({scrollTop: 0}, 2000);
+        $('html, body').animate({scrollTop: 0}, 1000);
         return false;
     });
     if ($(window).width() <= 991) {
@@ -53,6 +53,10 @@ $(document).ready(function () {
     }
     if ($(window).width() <= 767) {
         $('#myDiv1> .header-getting-support-button').prependTo('#myDiv2');
+    }
+    if ($(window).width() >= 991) {
+        $('#services-href').attr("href", "services.html");
+        $('#institutes-href').attr("href", "institutes.html");
     }
 });
 var show = true;
