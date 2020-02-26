@@ -12,6 +12,9 @@
   }
 }
 @media (max-width: 1450px) {
+  .success-item-photo img {
+    max-height: none;
+  }
   .map-bg1 {
     right: -230px;
   }
@@ -148,14 +151,6 @@
   .success-item-text {
     padding-right: 30px;
   }
-  .success-slider .slick-prev.slick-arrow {
-    bottom: 32px;
-    margin-left: 360px;
-  }
-  .success-slider .slick-next.slick-arrow {
-    bottom: 32px;
-    margin-left: 425px;
-  }
   .invest-banner-padding {
     padding-top: 30px;
     padding-right: 20px;
@@ -259,6 +254,14 @@
   }
 }
 @media (max-width: 1100px) {
+  .success-slider .slick-prev.slick-arrow {
+    bottom: 195px;
+    margin-left: 365px;
+  }
+  .success-slider .slick-next.slick-arrow {
+    bottom: 195px;
+    margin-left: 430px;
+  }
   .map-bg2 {
     width: 50%;
     top: 85px;
@@ -277,6 +280,14 @@
   }
   .li-nowrap {
     white-space: normal;
+  }
+}
+@media (max-width: 1082px) {
+  .success-slider .slick-prev.slick-arrow {
+    bottom: 210px;
+  }
+  .success-slider .slick-next.slick-arrow {
+    bottom: 210px;
   }
 }
 @media (min-width: 992px) {
@@ -326,6 +337,17 @@
   }
 }
 @media (max-width: 991px) {
+  .success-slider .story-count {
+    display: none;
+  }
+  .success-slider .slick-prev.slick-arrow {
+    bottom: 32px;
+    margin-left: 360px;
+  }
+  .success-slider .slick-next.slick-arrow {
+    bottom: 32px;
+    margin-left: 425px;
+  }
   .contacts {
     margin-top: 40px;
   }
