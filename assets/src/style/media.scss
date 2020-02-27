@@ -41,11 +41,14 @@
   }
 }
 @media (max-width: 1400px) {
+  .news-page-about-container {
+    padding-right: 40px;
+  }
+  .li-nowrap {
+    white-space: normal;
+  }
   .contacts-block-info {
     padding-left: 80px;
-  }
-  .news-page-other {
-    display: none;
   }
   .news-page-about {
     width: 100%;
@@ -53,9 +56,6 @@
       width: 100%;
       max-width: 800px;
     }
-  }
-  .news-page-about-container {
-    padding-right: 0;
   }
   .news {
     justify-content: center;
@@ -157,6 +157,21 @@
   }
 }
 @media (max-width: 1200px) {
+  .news-page-other {
+    flex: 100%;
+    max-width: 100%;
+  }
+  .news-page-other-item {
+    margin-left: 10px;
+    margin-right: 10px;
+    img {
+      width: 100%;
+      height: auto;
+    }
+  }
+  .news-page {
+    flex-wrap: wrap;
+  }
   .contacts-block {
     padding: 50px;
   }
@@ -277,9 +292,6 @@
   }
   .invest-count {
     margin-top: 40px;
-  }
-  .li-nowrap {
-    white-space: normal;
   }
 }
 @media (max-width: 1082px) {
@@ -417,7 +429,7 @@
     margin-top: 40px;
   }
   .item-blocks-photo img {
-    width: auto;
+
   }
   .invest-project-banner-item-text {
     flex: 100%;
@@ -658,6 +670,9 @@
   }
 }
 @media (max-width: 768px) {
+  .news-page-about-container {
+    padding-right: 0;
+  }
   .contacts-block-feedback, .contacts-block-info {
     .font-size-26 {
       font-size: 20px;
@@ -1026,13 +1041,13 @@
 }
 @media (max-width: 400px) {
   .news-banner-text {
-    padding: 60px 30px;
+    padding: 60px 20px;
   }
   .invest-project-banner-item-text {
-    padding: 60px 30px;
+    padding: 60px 20px;
   }
   .invest-projects-banner-text {
-    padding: 60px 30px;
+    padding: 60px 20px;
   }
   .invest-projects-banner-item-text h2 {
     font-size: 26px;

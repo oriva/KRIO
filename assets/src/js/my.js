@@ -32,6 +32,33 @@ $(".news-slider").slick({
             }
         }]
 });
+$(".news-page-other").slick({
+    dots: true,
+    autoplay: true,
+    slidesToShow: 2,
+    responsive: [{
+        breakpoint: 1900,
+        settings: "unslick" // destroys slick
+    } ,
+        {
+            breakpoint: 1200,
+            settings: {
+                slidesToShow: 3,
+            }
+        } ,
+        {
+            breakpoint: 768,
+            settings: {
+                slidesToShow: 2,
+            }
+        },
+        {
+            breakpoint: 576,
+            settings: {
+                slidesToShow: 1,
+            }
+        }]
+});
 $(document).ready(function () {
     $('.counts-item .count').each(function () {
         $(this).prop('Counter', 0).animate({
