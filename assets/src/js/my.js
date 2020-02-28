@@ -136,3 +136,6 @@ $('#burger').click(function () {
 $('.header-nav-item').click(function () {
     $(this).find('.menu-child').slideToggle();
 });
+$('.modal-close').click(function () {
+    $('#exampleModalCenter').hide();
+});

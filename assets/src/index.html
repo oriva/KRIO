@@ -286,7 +286,7 @@
             <p class="text-regular font-size-12 color-gray">Уберем все ваши сомнения</p>
             <p class="text-regular text-uppercase font-size-26 color-gray line-height-100 pt-8">Остались вопросы?</p>
             <p class="text-regular font-size-16 color-gray line-height-125 pt-21">Наши консультанты готовы ответить на любой интересующий вас вопрос, для этого вам всего лишь нужно отправить нам обращение и мы вскоре ответим вам на почту или перезвоним.</p>
-            <a href="#" class="trnsp-btn slider-button-more color-dark-gray font-size-14 text-semibold text-uppercase">Задать вопрос</a>
+            <a href="#" class="trnsp-btn slider-button-more color-dark-gray font-size-14 text-semibold text-uppercase" data-toggle="modal" data-target="#exampleModalCenter">Задать вопрос</a>
         </div>
     </div>
 </section>
@@ -352,6 +352,48 @@
         </div>
     </div>
 </section>
+<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-body">
+                <img src="img/modal-close.svg" class="modal-close" data-dismiss="modal" aria-label="Close">
+                <div class="modal-block-feedback">
+                    <p class="text-regular text-uppercase color-dark-gray color-dark-gray font-size-26 line-height-100 text-center">Задать вопрос</p>
+                    <div class="input-box mt-4">
+                        <div class="input-box-item input-box-item-first">
+                            <p class="text-regular text-uppercase font-size-16 color-dark-gray line-height-125 pb-7">Ваше имя*</p>
+                            <input type="text" value placeholder="Имя">
+                        </div>
+                        <div class="input-box-item input-box-item-second">
+                            <p class="text-regular text-uppercase font-size-16 color-dark-gray line-height-125 pb-7">Ваша фамилия</p>
+                            <input type="text" value placeholder="Фамилия">
+                        </div>
+                    </div>
+                    <div class="input-box">
+                        <div class="input-box-item input-box-item-first">
+                            <p class="text-regular text-uppercase font-size-16 color-dark-gray line-height-125 pb-7">e-mail*</p>
+                            <input type="text" value placeholder="example@gmail.com">
+                        </div>
+                        <div class="input-box-item input-box-item-second">
+                            <p class="text-regular text-uppercase font-size-16 color-dark-gray line-height-125 pb-7">Ваш телефон</p>
+                            <input type="text" value placeholder="+7 (___) ___-__-__">
+                        </div>
+                    </div>
+                    <div class="input-box">
+                        <div class="input-box-item">
+                            <p class="text-regular text-uppercase font-size-16 color-dark-gray line-height-125 pb-7">Текст обращения*</p>
+                            <textarea type="text" placeholder="Текст"></textarea>
+                        </div>
+                    </div>
+                    <div class="flex-box checkbox-basket">
+                        <input type="checkbox" id="cb1"> <label for="cb1"><div class="color-gray font-size-14 opacity text-regular">Отправляя форму, я даю <a href="#" class="text-underline color-gray">Согласие на обработку персональных данных</a>, подтверждаю согласие с <a href="#" class="text-underline color-gray">Политикой обработки персональных данных</a>, а также на получение информационных рассылок.</div></label>
+                    </div>
+                    <button class="header-button color-blue font-size-14 text-semibold text-uppercase mt-25">Отправить обращение</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 //= template/footer.html
 </body>
 </html>

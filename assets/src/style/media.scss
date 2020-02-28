@@ -349,6 +349,9 @@
   }
 }
 @media (max-width: 991px) {
+  .application-block-content {
+    padding: 50px;
+  }
   .success-slider .story-count {
     display: none;
   }
@@ -670,6 +673,11 @@
   }
 }
 @media (max-width: 768px) {
+  .application-block-content {
+    .font-size-26 {
+      font-size: 20px;
+    }
+  }
   .news-page-about-container {
     padding-right: 0;
   }
@@ -842,10 +850,31 @@
   .advantages-block-item{
     align-items: center;
   }
-
+  .modal-dialog {
+    max-width: 672px;
+    margin: 1.75rem auto;
+  }
+  .modal-body {
+    padding: 0;
+  }
 }
 @media (max-width: 575px) {
-
+  .application-block-form {
+    .checkbox-basket {
+      padding-right: 0;
+    }
+  }
+  .application-block-head {
+    h3 {
+      font-size: 20px;
+    }
+  }
+  .modal-block-feedback {
+    padding: 45px 0 0;
+  }
+  .checkbox-basket {
+    padding-right: 10px;
+  }
   .main-page-banner-buttons {
     display: flex;
     flex-wrap: wrap;
@@ -1023,6 +1052,9 @@
   }
 }
 @media (max-width: 519px) {
+  .application-block-head h3 {
+    font-size: 18px;
+  }
   .footer-info-buttons {
     margin-top: 40px;
     margin-left: 0;
@@ -1040,6 +1072,9 @@
   }
 }
 @media (max-width: 400px) {
+  .application-block-content {
+    padding: 40px 20px;
+  }
   .news-banner-text {
     padding: 60px 20px;
   }
@@ -1062,5 +1097,8 @@
     .main-blue-button {
       margin-right: 0;
     }
+  }
+  .application-block-form {
+    padding: 20px 10px;
   }
 }

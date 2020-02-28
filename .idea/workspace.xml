@@ -55,7 +55,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../lineischikNew" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../baikal-herbs-new" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="ServiceViewManager">
@@ -98,7 +98,8 @@
       <workItem from="1582268331941" duration="6802000" />
       <workItem from="1582610991282" duration="12805000" />
       <workItem from="1582690773303" duration="17932000" />
-      <workItem from="1582780383857" duration="6559000" />
+      <workItem from="1582780383857" duration="8946000" />
+      <workItem from="1582866550679" duration="12512000" />
     </task>
     <servers />
   </component>
@@ -114,14 +115,14 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1010" y="446" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1581586439777" />
-    <state x="1060" y="454" key="FileChooserDialogImpl" timestamp="1582710920485">
+    <state x="1060" y="454" key="FileChooserDialogImpl" timestamp="1582872443405">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="1060" y="454" key="FileChooserDialogImpl/0.0.2560.1400@0.0.2560.1400" timestamp="1582710920485" />
-    <state x="975" y="522" key="com.intellij.ide.util.TipDialog" timestamp="1582780502772">
+    <state x="1060" y="454" key="FileChooserDialogImpl/0.0.2560.1400@0.0.2560.1400" timestamp="1582872443405" />
+    <state x="975" y="522" key="com.intellij.ide.util.TipDialog" timestamp="1582866562370">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="975" y="522" key="com.intellij.ide.util.TipDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1582780502772" />
+    <state x="975" y="522" key="com.intellij.ide.util.TipDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1582866562370" />
     <state x="977" y="305" width="606" height="789" key="find.popup" timestamp="1582698766527">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
