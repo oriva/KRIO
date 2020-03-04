@@ -65,14 +65,14 @@
   border: 1px solid white;
   margin-left: auto;
   margin-top: auto;
-  background-image: url("/../img/up-icon.svg");
+  background-image: url("../img/up-icon.svg");
   background-repeat: no-repeat;
   background-position-y: center;
   background-position-x: center;
   transition: .4s;
   &:hover {
     background-color: white;
-    background-image: url("/../img/up-icon-hover.svg");
+    background-image: url("../img/up-icon-hover.svg");
     cursor: pointer;
   }
 }

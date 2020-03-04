@@ -2,14 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ddb2fbfe-f31e-4066-a662-e64ffd21f138" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/src/about.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/bitrixlangplugin.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/src/investment-project-item.html" beforeDir="false" afterPath="$PROJECT_DIR$/assets/src/investment-project-item.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/src/investment-projects.html" beforeDir="false" afterPath="$PROJECT_DIR$/assets/src/investment-projects.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/src/style/indents.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/src/style/indents.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/src/style/footer_styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/src/style/footer_styles.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/src/style/header_styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/src/style/header_styles.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/src/style/index_styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/src/style/index_styles.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/src/style/investment-projects_styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/src/style/investment-projects_styles.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/src/style/media.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/src/style/media.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/src/style/services_styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/src/style/services_styles.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,6 +55,7 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../baikal-herbs-new" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -100,6 +102,8 @@
       <workItem from="1582690773303" duration="17932000" />
       <workItem from="1582780383857" duration="8946000" />
       <workItem from="1582866550679" duration="12512000" />
+      <workItem from="1583116033515" duration="9807000" />
+      <workItem from="1583288508069" duration="1203000" />
     </task>
     <servers />
   </component>
@@ -123,9 +127,10 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="975" y="522" key="com.intellij.ide.util.TipDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1582866562370" />
-    <state x="977" y="305" width="606" height="789" key="find.popup" timestamp="1582698766527">
-      <screen x="0" y="0" width="2560" height="1400" />
+    <state x="733" y="227" width="763" height="587" key="find.popup" timestamp="1583123423223">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state x="733" y="227" width="763" height="587" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1583123423223" />
     <state x="977" y="305" width="606" height="789" key="find.popup/0.0.2560.1400@0.0.2560.1400" timestamp="1582698766527" />
   </component>
 </project>
